@@ -9,7 +9,7 @@ import (
 var version = 4
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, 世界.. From v %s", version)
+	fmt.Fprintln(w, "Hello, 世界.. From v %s Hoang test", version)
 }
 func main() {
 	http.HandleFunc("/", handler)

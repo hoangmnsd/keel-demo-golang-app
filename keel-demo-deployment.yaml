@@ -19,7 +19,7 @@ spec:
         app: wd
     spec:
       containers:
-        - image: myacrsunny.azurecr.io/keeldemo:latest
+        - image: hoangmnsd/keeldemo:latest
           imagePullPolicy: Always
           name: wd
           ports:
